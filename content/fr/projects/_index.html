@@ -9,7 +9,7 @@ breadcrumb_title: >-
 url: "/projets/"
 slug: "projets"
 date: 2026-09-22T09:12:37+02:00
-lastmod: 2026-09-22T09:12:37+02:00
+lastmod: 2026-09-22T11:20:47+02:00
 meta:
   hugo:
     permalink: "/projets/"
@@ -18,7 +18,7 @@ meta:
     slug: "projets"
   dates:
     created_at: 2026-09-22T09:12:37+02:00
-    updated_at: 2026-09-22T09:12:37+02:00
+    updated_at: 2026-09-22T11:20:47+02:00
     published_at: 2026-09-22T09:12:37+02:00
 search:
   id: "480d66ce-32c1-477a-93e8-196288bbfa95"
@@ -29,7 +29,8 @@ search:
   title: >-
     Projets
 
-
+  body: >-
+    <p>Douze projets  <br>Douze projets menés en cours, en alternance et en collaboration — de l’affiche imprimée à l’interface mobile, du logotype au reportage photo.</p>  <p> Tous les projets </p>
 
 breadcrumbs:
   - title: >-
@@ -58,11 +59,119 @@ translationKey: communication-website-page-66f36c8d-824f-46ef-9553-7f5934f3ef33
 header_cta:
 
 section_taxonomies:
+  - name: >-
+      Catégories
+    slug: ""
+    path: ""
+    categories:
+      - permalink: ""
+        path: "/projects_categories/affiches-print"
+        slug: "affiches-print"
+        file: "content/fr/projects_categories/affiches-print/_index.html"
+        name: >-
+          Affiches & print
+        count: 4
+      - permalink: ""
+        path: "/projects_categories/ux-ui-design"
+        slug: "ux-ui-design"
+        file: "content/fr/projects_categories/ux-ui-design/_index.html"
+        name: >-
+          UX/UI design
+        count: 4
+      - permalink: ""
+        path: "/projects_categories/identite-visuelle"
+        slug: "identite-visuelle"
+        file: "content/fr/projects_categories/identite-visuelle/_index.html"
+        name: >-
+          Identité visuelle
+        count: 3
+      - permalink: ""
+        path: "/projects_categories/photographies"
+        slug: "photographies"
+        file: "content/fr/projects_categories/photographies/_index.html"
+        name: >-
+          Photographies
+        count: 1
+
 
 contents_reading_time:
-  seconds: 0
+  seconds: 7
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: chapter
+    title: >-
+      Douze projets
+    slug: >-
+      douze-projets
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Douze projets
+        heading: 2
+
+    data:
+      layout: no_background
+      text: >-
+        <p>Douze projets menés en cours, en alternance et en collaboration — de l’affiche imprimée à l’interface mobile, du logotype au reportage photo.</p>
+
+
+
+  - kind: block
+    template: projects
+    title: >-
+      Tous les projets
+    slug: >-
+      tous-les-projets
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Tous les projets
+        heading: 2
+        link: "/projets/"
+
+    data:
+      mode: all
+      all: true
+      layout: grid
+      options:
+        categories: true
+        image: true
+        subtitle: true
+        summary: false
+        year: true
+
+      projects:
+        - permalink: "/projets/2026-design-sportif/"
+          path: "/projects/2026/design-sportif"
+          slug: "design-sportif"
+          file: "content/fr/projects/2026/design-sportif.html"
+          name: >-
+            Design sportif
+        - permalink: "/projets/2026-evenement-sportif/"
+          path: "/projects/2026/evenement-sportif"
+          slug: "evenement-sportif"
+          file: "content/fr/projects/2026/evenement-sportif.html"
+          name: >-
+            Événement sportif
+        - permalink: "/projets/2026-flyer-triptyque/"
+          path: "/projects/2026/flyer-triptyque"
+          slug: "flyer-triptyque"
+          file: "content/fr/projects/2026/flyer-triptyque.html"
+          name: >-
+            Flyer triptyque
+
+      quantity: 3
+
 
 ---
